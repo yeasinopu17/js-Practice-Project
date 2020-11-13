@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learning jQuery</title>
+  <link rel="stylesheet" href="boot/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><img src="img/logo3.png" style="width: 50px; height: 30px;" alt="logo"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Php</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">java</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">jQuery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">WP</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="service-section bg-light pt-3">
+        <div class="title text-center mb-3">
+          <h3 class="font-weight-bolder">Our Services</h3>
+        </div>
+        <div class="row text-left text-md-center">
+          <div class="col-lg-3 col-md-6">
+            <i class="fas fa-handshake bg-primary p-2 fa-3x text-white rounded-circle mb-3"></i>
+            <h5 class="text-uppercase">Html</h5>
+            <p class="small text-muted">
+              Consetetur diam takimata vero diam dolor diam sit sadipscing
+              invidunt kasd, dolore ipsum sit dolores voluptua, tempor
+              gubergren aliquyam dolores.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="fab fa-apple bg-info p-2 fa-3x text-white rounded-circle mb-3"></i>
+            <h5 class="text-uppercase">JS</h5>
+            <p class="small text-muted">
+              Consetetur diam takimata vero diam dolor diam sit sadipscing
+              invidunt kasd, dolore ipsum sit dolores voluptua, tempor
+              gubergren aliquyam dolores.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="fas fa-heart-broken bg-danger p-2 fa-3x text-white rounded-circle mb-3"></i>
+            <h5 class="text-uppercase">jQuery</h5>
+            <p class="small text-muted">
+              Consetetur diam takimata vero diam dolor diam sit sadipscing
+              invidunt kasd, dolore ipsum sit dolores voluptua, tempor
+              gubergren aliquyam dolores.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <i class="fas fa-fighter-jet bg-success p-2 fa-3x text-white rounded-circle mb-3"></i>
+            <h5 class="text-uppercase">PHP</h5>
+            <p class="small text-muted">
+              Consetetur diam takimata vero diam dolor diam sit sadipscing
+              invidunt kasd, dolore ipsum sit dolores voluptua, tempor
+              gubergren aliquyam dolores.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-section">
+        <div class="jumbotron pt-3">
+          <div class="title text-center mb-3">
+            <h3 class="font-weight-bolder">About Me</h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <img class="rounded-circle" src="img/2.jpg" alt="" style="width: 250px; height: 250px" />
+            </div>
+            <div class="col-lg-8">
+              <p>
+                Eos accusam nonumy justo et amet voluptua. Aliquyam ipsum diam
+                sea et lorem sea lorem amet eirmod. Vero dolor takimata ipsum
+                labore et, sit amet erat dolor sanctus dolores vero sit ipsum
+                tempor. Tempor clita at magna diam ea ipsum.That harolds go a
+                sister longdeserted formed he. Suffice nor yet love strange
+                long partings sighed thou, nor degree his like mote say mote
+                a, fly maddest mammon bliss known soils, coffined feel knew
+                are nor lowly that. To caugh
+              </p>
+              <a class="d-block mb-3" href="#demo" data-toggle="collapse">Learn More....
+              </a>
+              <div id="demo" class="collapse">
+                <p>
+                  Walten so erschüttert ersten schwankende äolsharfe mein.
+                  Bringt jenem erste beifall erste vor manche mich,
+                  festzuhalten guten sich ergreift meinem denen fühlt lispelnd
+                  schmerz das. Kommt zerstoben ergreift stunden und mich der.
+                  Festzuhalten schatten sich euren einst in ertönt und.
+                  Gesänge die tränen in wie lied und gut. Des mögt nicht fühlt
+                  mit hören, wahn um erste gleich in zerstreuet gut ich,
+                  ersten schwankende diesmal diesmal mein zug in in sang
+                  fühlt, freundschaft steigt fühlt der ein vom. Mögt herz auf
+                  vom ihr gestalten folgt, weiten in vom einst ein widerklang.
+                  Nebel halbverklungnen lied busen verschwand besitze . Zug
+                  besitze.
+                </p>
+              </div>
+              <div class="btn-group btn-group-lg">
+                <button class="btn mb-3 btn-outline-info">Download CV</button>
+                <button class="btn mb-3 btn-outline-info">Download CV</button>
+                <button class="btn mb-3 btn-outline-info">Download CV</button>
+              </div>
+
+              <div class="alert alert-info alert-dismissible">
+                <button class="close" data-dismiss="alert">&times;</button>
+                This is alert of BS4 ?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-sec">
+        <div class="title text-center mb-3">
+          <h3 class="font-weight-bolder">Education</h3>
+        </div>
+        <table class="table table-bordered table-hover table-striped">
+          <thead>
+            <tr>
+              <th>Qualification</th>
+              <th>Institute</th>
+              <th>Year</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Scc</td>
+              <td>Shahjanpur Railway Govt High School</td>
+              <td>2007</td>
+              <td>4.56</td>
+            </tr>
+            <tr>
+              <td>Hsc</td>
+              <td>National College</td>
+              <td>2009</td>
+              <td>4.90</td>
+            </tr>
+            <tr>
+              <td>Scc</td>
+              <td>Govt Titumir College</td>
+              <td>2016</td>
+              <td>3.16</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+
+      <div class="card-section">
+        <div class="title text-center mb-3">
+          <h3 class="font-weight-bolder">Card Sections</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="img/pumpkin.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">YeasinOpu</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, non.</p>
+                <a class="card-link stretched-link" href="#">Vist...</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="img/pumpkin.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">YeasinOpu</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, non.</p>
+                <a class="card-link stretched-link" href="#">Vist...</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="img/pumpkin.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">YeasinOpu</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, non.</p>
+                <a class="card-link stretched-link" href="#">Vist...</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="card-img-top" src="img/pumpkin.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">YeasinOpu</h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, non.</p>
+                <a class="card-link stretched-link" href="#">Vist...</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="customer-review bg-light text-center">
+        <div class="title text-center mb-3">
+          <h3 class="font-weight-bolder">Customer Review</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <blockquote class="blockquote">
+              <i class="fas fa-user-tie fa-4x"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos distinctio adipisci ad ipsa doloremque libero.
+              </p>
+              <footer class="blockquote-footer">
+                By Yeasin Opu in <cite>NPOLY</cite>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote class="blockquote">
+              <i class="fas fa-user-tie fa-4x"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos distinctio adipisci ad ipsa doloremque libero.
+              </p>
+              <footer class="blockquote-footer">
+                By Yeasin Opu in <cite>NPOLY</cite>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote class="blockquote">
+              <i class="fas fa-user-tie fa-4x"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos distinctio adipisci ad ipsa doloremque libero.
+              </p>
+              <footer class="blockquote-footer">
+                By Yeasin Opu in <cite>NPOLY</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="other-section">
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#about-me">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#hobby">Hobby</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="tab-pane active">
+            <p>
+              D'azur hystériques j'ai des pas je tendus et douce voulais. Les je les tremblais électriques, tempete
+              fleuves sillage les l'homme.
+            </p>
+          </div>
+          <div id="about-me" class="tab-pane fade">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque ad quo animi porro laboriosam
+              possimus sunt qui dicta, expedita adipisci excepturi impedit placeat suscipit fugit temporibus cumque
+              consequatur molestiae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque ad quo
+              animi
+              porro laboriosam
+              possimus sunt qui dicta, expedita adipisci excepturi impedit placeat suscipit fugit temporibus cumque
+              consequatur molestiae.
+            </p>
+          </div>
+
+          <div id="hobby" class="tab-pane fade">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque ad quo animi porro laboriosam
+              possimus sunt qui dicta, expedita adipisci excepturi impedit placeat suscipit fugit temporibus cumque
+              consequatur molestiae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque ad quo
+              animi
+              porro laboriosam
+              possimus sunt qui dicta, expedita adipisci excepturi impedit placeat suscipit fugit temporibus cumque
+              consequatur molestiae.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="media-section">
+        <div class="title text-center mb-3">
+          <h3 class="font-weight-bolder">Media Sections</h3>
+        </div>
+        <div class="media p-3 border">
+          <img class="rounded-circle mr-3" style="width: 120px; height: 120px;" src="img/pp.jpg" alt="">
+          <div class="media-body">
+            <h5>I love learning</h5>
+            <p>Gubergren at clita justo at dolores takimata sit gubergren. Takimata takimata dolor no rebum sanctus, at
+              no
+              dolores stet amet.Gubergren at clita justo at dolores takimata sit gubergren. Takimata takimata dolor no
+              rebum
+              sanctus, at no
+              dolores stet amet.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="student-list">
+        <ul class="list-group">
+          <li class="list-group-item bg-info text-white">Sansa</li>
+          <li class="list-group-item bg-info text-white">John</li>
+          <li class="list-group-item bg-info text-white">Ariya</li>
+          <li class="list-group-item bg-info text-white">Max</li>
+          <li class="list-group-item bg-info text-white">Herinthon</li>
+        </ul>
+      </div>
+      <div class="contact-section bg-primary my-5 text-white p-3">
+        <div class="title text-center mb-3">
+          <h3 class="font-weight-bolder">Contact Form</h3>
+        </div>
+        <form action="" class="was-validated">
+
+          <div class="form-group">
+            <label for="fullName">Full Name :</label>
+            <input type="text" name="fullName" class="form-control" id="fullName" required>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Enter a Name</div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="text" name="email" class="form-control" id="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject :</label>
+            <input type="text" name="subject" class="form-control" id="subject">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message :</label>
+            <textarea name="message" class="form-control" id="message" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="form-group">
+            <input type="submit" class="btn btn-secondary" value="Submit">
+            <input type="reset" class="btn btn-secondary" value="Reset">
+          </div>
+
+        </form>
+      </div>
+
+  </div>
+  </main>
+
+  <footer class="bg-dark">
+    <ul class="pagination py-3 justify-content-center">
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">4</a></li>
+      <li class="page-item"><a class="page-link" href="#">5</a></li>
+    </ul>
+  </footer>
+  </div>
+  <!-- maintain sequence -->
+  <script src="jQuery.js"></script>
+  <script src="boot/popper.min.js"></script>
+  <script src="boot/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+  <script src="journal.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
